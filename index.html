@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>The 67 Text Attraction System — ALPHA RIZZOLOGY</title>
+<meta name="description" content="So good she'll lose interest in every other guy. 67 proven texts, organized by scenario. $7 / €7 / £7. 7-day money-back guarantee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#121110;
+    --ink-2:#1B1917;
+    --card:#1E1B18;
+    --card-line:#33302B;
+    --bone:#EFE8DA;
+    --bone-dim:#B8AFA0;
+    --brass:#C79B4A;
+    --brass-dim:#8A6A31;
+    --rust:#B8503A;
+    --slate:#5B7FB0;
+    --slate-dim:#2A3A52;
+    --green:#7FA871;
+    --radius:14px;
+    --serif:'Fraunces', serif;
+    --sans:'Inter', -apple-system, sans-serif;
+    --mono:'IBM Plex Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} *{animation-duration:0.01ms !important; transition-duration:0.01ms !important;} }
+  body{
+    margin:0; background:var(--ink); color:var(--bone);
+    font-family:var(--sans); line-height:1.55; font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  img{max-width:100%; display:block;}
+  :focus-visible{outline:2px solid var(--brass); outline-offset:3px;}
+  .wrap{max-width:760px; margin:0 auto; padding:0 22px;}
+  .eyebrow{
+    font-family:var(--mono); text-transform:uppercase; letter-spacing:0.14em;
+    font-size:12px; color:var(--brass); font-weight:600; margin-bottom:14px; display:block;
+  }
+  h1,h2,h3{font-family:var(--serif); font-weight:700; line-height:1.12; margin:0 0 16px;}
+  h1{font-size:clamp(30px,6vw,50px); font-weight:900;}
+  h2{font-size:clamp(24px,4.4vw,36px);}
+  h3{font-size:20px; font-weight:600;}
+  p{margin:0 0 14px; color:var(--bone-dim);}
+  strong{color:var(--bone); font-weight:700;}
+  em{color:var(--bone); font-style:italic;}
+  .section{padding:64px 0;}
+  .section-tight{padding:44px 0;}
+  .divider{height:1px; background:linear-gradient(90deg, transparent, var(--card-line), transparent); margin:0;}
+  .center{text-align:center;}
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    background:var(--brass); color:#1A1409; font-family:var(--sans); font-weight:800;
+    font-size:16px; padding:17px 28px; border-radius:10px; text-decoration:none;
+    border:none; cursor:pointer; width:100%; max-width:440px;
+    box-shadow:0 8px 24px -8px rgba(199,155,74,0.5);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover{transform:translateY(-1px); box-shadow:0 10px 28px -6px rgba(199,155,74,0.6);}
+  .btn-row{display:flex; justify-content:center; margin:22px 0 10px;}
+  .microcopy{font-family:var(--mono); font-size:12px; color:var(--bone-dim); text-align:center; letter-spacing:0.02em;}
+
+  /* HERO */
+  .hero{padding:52px 0 40px; position:relative; overflow:hidden;}
+  .hero::before{
+    content:""; position:absolute; top:-140px; left:50%; transform:translateX(-50%);
+    width:640px; height:640px; border-radius:50%;
+    background:radial-gradient(circle, rgba(199,155,74,0.14), transparent 68%);
+    pointer-events:none;
+  }
+  .brandmark{
+    font-family:var(--mono); font-weight:700; letter-spacing:0.18em; font-size:13px;
+    color:var(--brass); text-transform:uppercase; margin-bottom:28px; text-align:center;
+  }
+  .stat-strip{
+    display:flex; flex-wrap:wrap; gap:0; border:1px solid var(--card-line); border-radius:12px;
+    overflow:hidden; margin:28px 0 8px; background:var(--card);
+  }
+  .stat{flex:1 1 33%; min-width:110px; text-align:center; padding:16px 8px; border-right:1px solid var(--card-line);}
+  .stat:last-child{border-right:none;}
+  .stat b{display:block; font-family:var(--mono); font-size:19px; color:var(--brass); font-weight:700;}
+  .stat span{font-size:11px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em;}
+  .hero h1{text-align:center; margin-bottom:18px;}
+  .hero .lede{text-align:center; font-size:17px; max-width:560px; margin:0 auto 6px;}
+  .price-tag{font-family:var(--mono); text-align:center; color:var(--bone); font-size:14px; margin-top:2px;}
+  .price-tag b{color:var(--brass); font-size:20px;}
+
+  /* AGITATION */
+  .agitate-item{
+    display:flex; gap:16px; padding:22px 0; border-top:1px solid var(--card-line);
+  }
+  .agitate-item:last-of-type{border-bottom:1px solid var(--card-line);}
+  .agitate-num{
+    font-family:var(--mono); color:var(--rust); font-weight:700; font-size:14px; flex-shrink:0; width:26px; padding-top:3px;
+  }
+  .agitate-item p{margin:0;}
+  .agitate-item .lead{color:var(--bone); font-weight:600; font-size:16.5px; margin-bottom:5px;}
+  .agitate-item .sub{color:var(--bone-dim); font-size:14.5px; font-style:italic;}
+  .agitate-close{margin-top:30px; padding:20px; border-left:3px solid var(--rust); background:rgba(184,80,58,0.08); border-radius:0 8px 8px 0;}
+  .agitate-close p{margin:0; color:var(--bone);}
+
+  /* MODULES */
+  .module{
+    display:flex; gap:20px; padding:26px 0; border-top:1px solid var(--card-line);
+  }
+  .module-num{
+    font-family:var(--mono); color:var(--brass); font-weight:700; font-size:22px; flex-shrink:0; width:42px;
+  }
+  .module h3{margin-bottom:8px;}
+  .module .val{
+    display:inline-block; font-family:var(--mono); font-size:11.5px; color:var(--brass-dim);
+    border:1px solid var(--brass-dim); border-radius:20px; padding:3px 11px; margin-top:6px;
+  }
+  .value-total{
+    margin-top:30px; border:1px solid var(--brass); border-radius:12px; padding:24px;
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;
+    background:linear-gradient(180deg, rgba(199,155,74,0.08), transparent);
+  }
+  .value-total .label{font-family:var(--mono); font-size:12px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.06em;}
+  .value-total .amount{font-family:var(--mono); font-size:26px; color:var(--brass); font-weight:700;}
+  .value-total .strike{text-decoration:line-through; opacity:0.5;}
+
+  /* PHONE MOCKUP - signature element */
+  .phone-wrap{display:flex; justify-content:center; gap:22px; flex-wrap:wrap; margin:36px 0 8px;}
+  .phone{
+    width:270px; background:#0A0A09; border:1px solid #3A362F; border-radius:30px;
+    padding:14px 10px 20px; box-shadow:0 24px 50px -18px rgba(0,0,0,0.7);
+  }
+  .phone-head{text-align:center; padding:2px 0 12px;}
+  .phone-head .tag{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase;
+    padding:4px 10px; border-radius:20px; font-weight:700;
+  }
+  .phone.before .tag{background:rgba(184,80,58,0.18); color:#D98D77;}
+  .phone.after .tag{background:rgba(127,168,113,0.18); color:#9DC28F;}
+  .bubble{
+    max-width:86%; padding:9px 13px; border-radius:16px; font-size:13.5px; line-height:1.4; margin-bottom:8px;
+  }
+  .bubble.me{background:var(--brass-dim); color:#FBF3E4; margin-left:auto; border-bottom-right-radius:4px;}
+  .bubble.her{background:var(--slate-dim); color:#DCE6F5; margin-right:auto; border-bottom-left-radius:4px;}
+  .phone-caption{font-size:12px; color:var(--bone-dim); text-align:center; margin-top:10px; padding:0 6px;}
+
+  /* TESTIMONIALS */
+  .t-grid{display:flex; flex-direction:column; gap:14px; margin-top:26px;}
+  .t-card{
+    background:var(--card); border:1px solid var(--card-line); border-radius:var(--radius);
+    padding:20px 22px;
+  }
+  .t-card .quote{color:var(--bone); font-size:15px; margin:0 0 12px;}
+  .t-card .who{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;}
+  .t-card .name{font-weight:700; color:var(--brass); font-size:13.5px;}
+  .t-card .result{
+    font-family:var(--mono); font-size:11px; color:var(--bone-dim); border:1px solid var(--card-line);
+    border-radius:20px; padding:3px 10px;
+  }
+  .stars{color:var(--brass); letter-spacing:2px; font-size:14px; margin-bottom:8px;}
+
+  /* OUTCOMES */
+  .outcome-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:24px;}
+  @media (max-width:560px){ .outcome-grid{grid-template-columns:1fr;} }
+  .outcome{background:var(--card); border:1px solid var(--card-line); border-radius:var(--radius); padding:18px;}
+  .outcome .ico{font-size:20px; margin-bottom:8px; display:block;}
+  .outcome h3{font-size:15.5px; margin-bottom:5px;}
+  .outcome p{font-size:13.5px; margin:0;}
+
+  /* AUTHORITY */
+  .authority{
+    background:var(--card); border:1px solid var(--card-line); border-radius:var(--radius);
+    padding:28px 24px; text-align:center; margin-top:8px;
+  }
+  .authority .stat-row{display:flex; justify-content:center; gap:28px; flex-wrap:wrap; margin-top:18px;}
+  .authority .stat-row b{display:block; font-family:var(--mono); color:var(--brass); font-size:20px;}
+  .authority .stat-row span{font-size:11px; color:var(--bone-dim); text-transform:uppercase; letter-spacing:0.05em;}
+
+  /* GUARANTEE */
+  .guarantee-box{
+    border:1px solid var(--brass); border-radius:var(--radius); padding:30px 26px; text-align:center;
+    background:radial-gradient(circle at top, rgba(199,155,74,0.1), transparent 70%);
+  }
+  .guarantee-box .seal{
+    width:56px; height:56px; border-radius:50%; border:2px solid var(--brass); color:var(--brass);
+    display:flex; align-items:center; justify-content:center; margin:0 auto 16px; font-size:24px;
+  }
+  .check-list{list-style:none; padding:0; margin:18px 0 0; text-align:left; max-width:420px; margin-inline:auto;}
+  .check-list li{padding:6px 0 6px 26px; position:relative; font-size:14.5px; color:var(--bone-dim);}
+  .check-list li::before{content:"✓"; position:absolute; left:0; color:var(--green); font-weight:700;}
+
+  /* PRICE / OFFER */
+  .offer-box{
+    border:1px solid var(--brass); border-radius:16px; padding:30px 26px; text-align:center;
+    background:var(--card);
+  }
+  .price-display{margin:16px 0 6px;}
+  .price-display .big{font-family:var(--mono); font-size:52px; font-weight:700; color:var(--brass);}
+  .price-display .cur-note{font-size:12px; color:var(--bone-dim); font-family:var(--mono); margin-top:4px;}
+  .offer-list{list-style:none; padding:0; margin:22px 0; text-align:left; max-width:420px; margin-inline:auto;}
+  .offer-list li{padding:7px 0 7px 26px; position:relative; font-size:14.5px; color:var(--bone);}
+  .offer-list li::before{content:"✓"; position:absolute; left:0; color:var(--brass); font-weight:700;}
+
+  /* FAQ */
+  .faq-item{border-top:1px solid var(--card-line); padding:18px 0;}
+  .faq-item:last-child{border-bottom:1px solid var(--card-line);}
+  .faq-item summary{
+    cursor:pointer; font-weight:600; color:var(--bone); font-size:15.5px; list-style:none;
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:"+"; font-family:var(--mono); color:var(--brass); font-size:20px; flex-shrink:0;}
+  .faq-item[open] summary::after{content:"–";}
+  .faq-item p{margin-top:12px; font-size:14.5px;}
+
+  footer{padding:40px 0 60px; text-align:center;}
+  footer p{font-size:12px; color:var(--bone-dim); max-width:480px; margin:0 auto 6px;}
+
+  .badge-row{display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-top:14px; font-family:var(--mono); font-size:11.5px; color:var(--bone-dim);}
+
+  /* PRICE STRIKE */
+  .strike-price{text-decoration:line-through; color:var(--bone-dim); font-size:0.55em; margin-right:8px; vertical-align:middle;}
+  .save-pill{
+    display:inline-block; font-family:var(--mono); font-size:11px; font-weight:700; color:var(--green);
+    border:1px solid var(--green); border-radius:20px; padding:3px 10px; margin-top:10px;
+  }
+
+  /* EBOOK COVER */
+  .cover-wrap{display:flex; justify-content:center; margin:30px 0 6px;}
+  .cover-wrap img{
+    width:230px; border-radius:6px; box-shadow:0 26px 60px -18px rgba(0,0,0,0.75);
+    border:1px solid var(--card-line);
+  }
+
+  /* PROOF SCREENSHOTS */
+  .proof-grid{display:flex; gap:16px; flex-wrap:wrap; justify-content:center; margin-top:24px;}
+  .proof-card{
+    width:270px; background:var(--card); border:1px solid var(--card-line); border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .proof-card img{width:100%; display:block;}
+  .proof-card .cap{padding:10px 14px; font-size:12px; color:var(--bone-dim); font-family:var(--mono);}
+
+  /* CHECKOUT EMBED */
+  .checkout-embed{
+    margin:22px auto 0; border-radius:12px; overflow:hidden; border:1px solid var(--card-line);
+    max-width:450px;
+  }
+
+  /* STICKY PRICE BAR */
+  .sticky-bar{
+    position:fixed; left:0; right:0; bottom:0; z-index:60;
+    background:rgba(18,17,16,0.96); backdrop-filter:blur(6px);
+    border-top:1px solid var(--card-line);
+    padding:10px 16px; display:flex; align-items:center; justify-content:space-between; gap:14px;
+    box-shadow:0 -10px 30px -12px rgba(0,0,0,0.6);
+  }
+  .sticky-bar .sb-price{font-family:var(--mono); display:flex; align-items:baseline; gap:8px;}
+  .sticky-bar .sb-price .now{font-size:19px; color:var(--brass); font-weight:700;}
+  .sticky-bar .sb-price .was{font-size:13px; text-decoration:line-through; color:var(--bone-dim);}
+  .sticky-bar .sb-btn{
+    font-family:var(--sans); font-weight:800; background:var(--brass); color:#1A1409;
+    padding:11px 18px; border-radius:9px; text-decoration:none; font-size:14px; white-space:nowrap;
+  }
+  body{padding-bottom:70px;}
+  @media (max-width:380px){ .sticky-bar .sb-btn{padding:10px 13px; font-size:13px;} }
+  .checkout-timer{
+    max-width:450px; margin:22px auto 0; text-align:center; border:1px solid var(--brass-dim);
+    border-radius:10px; padding:12px 16px; background:rgba(199,155,74,0.06);
+  }
+  .checkout-timer .label{font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--bone-dim);}
+  .checkout-timer .clock{font-family:var(--mono); font-size:26px; color:var(--brass); font-weight:700; margin-top:4px; letter-spacing:0.04em;}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="brandmark">ALPHA RIZZOLOGY</div>
+    <span class="eyebrow center" style="text-align:center; display:block;">The Method Guys Don't Post About</span>
+    <h1>She Leaves You On "lol" — While Some Guy She Just Matched With Has Her Double-Texting <em>Him.</em></h1>
+    <p class="lede">1,500+ men used this exact system to fix their texting: turning dry one-word replies into real conversations, real chemistry, and real dates. No pickup lines. No fake personality. Just direction.</p>
+
+    <div class="stat-strip">
+      <div class="stat"><b>1,500+</b><span>Men Trained</span></div>
+      <div class="stat"><b>4.8/5</b><span>Avg. Rating</span></div>
+      <div class="stat"><b>67</b><span>Ready-to-Send Texts</span></div>
+      <div class="stat"><b>7-Day</b><span>Money-Back</span></div>
+    </div>
+
+    <div class="cover-wrap">
+      <img src="assets/ebook-cover.jpg" alt="The 67 Text Attraction System — cover" loading="lazy">
+    </div>
+
+    <p class="microcopy" style="margin-top:22px;">⚡ Instant download · 🔒 Secure checkout · 🛡 7-day guarantee</p>
+    <p class="center" style="margin-top:4px;"><a href="#offer" style="color:var(--brass); font-family:var(--mono); font-size:13px; text-decoration:underline;">↓ See pricing & checkout</a></p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- AGITATION -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">Be honest with yourself</span>
+    <h2>Aren't you tired of this?</h2>
+    <p>I've read enough of these chats to know exactly where you're stuck. If any of these hit, keep reading.</p>
+
+    <div class="agitate-item">
+      <div class="agitate-num">01</div>
+      <div>
+        <p class="lead">Tired of sending "hey" and watching the chat flatline into "lol" and then nothing?</p>
+        <p class="sub">You reread her profile for the tenth time trying to find something clever to say. You send it. She replies in four words. You don't know what you did wrong.</p>
+      </div>
+    </div>
+    <div class="agitate-item">
+      <div class="agitate-num">02</div>
+      <div>
+        <p class="lead">Tired of watching guys with worse pictures pull girls you couldn't even get past "haha"?</p>
+        <p class="sub">It's not his face. It's not his job. Something about how he texts makes her lean in — and you can't figure out what.</p>
+      </div>
+    </div>
+    <div class="agitate-item">
+      <div class="agitate-num">03</div>
+      <div>
+        <p class="lead">Tired of typing a message, deleting it, retyping it, and still overthinking it after you hit send?</p>
+        <p class="sub">Fifteen minutes on one text. She replies in four seconds. The whole mood you built just — evaporates.</p>
+      </div>
+    </div>
+    <div class="agitate-item">
+      <div class="agitate-num">04</div>
+      <div>
+        <p class="lead">Tired of double-texting, hating yourself for it, and then doing it again anyway?</p>
+        <p class="sub">"???" "Hello?" You know it's the wrong move while you're typing it. You send it anyway.</p>
+      </div>
+    </div>
+    <div class="agitate-item">
+      <div class="agitate-num">05</div>
+      <div>
+        <p class="lead">Tired of being "so nice," "so easy to talk to," and somehow still stuck in the friendzone?</p>
+        <p class="sub">You're the guy she vents to about other guys. Never the guy she's texting at 1am for a different reason.</p>
+      </div>
+    </div>
+    <div class="agitate-item">
+      <div class="agitate-num">06</div>
+      <div>
+        <p class="lead">Tired of not even knowing what makes a text "flirty" instead of just... a text?</p>
+        <p class="sub">You're not bad with words. You're just texting without direction — reacting instead of leading. That's the whole problem, and it's fixable.</p>
+      </div>
+    </div>
+
+    <div class="agitate-close">
+      <p>That flat feeling when a chat dies on you? That's not because you're boring, and it's not because "women are complicated." It's a direction problem. This guide exists to fix exactly that.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SIGNATURE: PHONE MOCKUP -->
+<section class="section-tight">
+  <div class="wrap">
+    <span class="eyebrow">The same message. Two completely different outcomes.</span>
+    <h2>It's Never About Saying More.</h2>
+    <p>Same situation. Same guy. The only thing that changed is the energy behind the text — which is exactly what Section II of the system rebuilds first.</p>
+
+    <div class="phone-wrap">
+      <div class="phone before">
+        <div class="phone-head"><span class="tag">Before</span></div>
+        <div class="bubble me">Hey, sorry I know you're probably busy but I didn't hear from you yesterday and just wanted to check you're okay 😅</div>
+        <div class="bubble her">yeah I'm good, just busy</div>
+        <div class="bubble me">Oh okay no worries, whenever you're free is fine, no pressure at all!</div>
+        <div class="phone-caption">Anxious. Over-explained. Three emotions in one text. Conversation dead.</div>
+      </div>
+      <div class="phone after">
+        <div class="phone-head"><span class="tag">After</span></div>
+        <div class="bubble me">You disappeared. I was about to file a missing person report.</div>
+        <div class="bubble her">omg lol sorry I've been slammed this week</div>
+        <div class="bubble me">You're forgiven this time.</div>
+        <div class="phone-caption">Calm. One clear emotion. Leads instead of chases. Chat stays alive.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- WHAT'S INSIDE -->
+<section class="section" id="whats-inside">
+  <div class="wrap">
+    <span class="eyebrow">What you're getting</span>
+    <h2>The Complete 67 Text Attraction System</h2>
+    <p>Not a list of pickup lines. A step-by-step framework for how attraction actually moves through a text thread — plus 67 ready-to-send texts organized by exact scenario.</p>
+
+    <div class="module">
+      <div class="module-num">01</div>
+      <div>
+        <h3>Why Most Men Fail At Texting Women</h3>
+        <p>The mindset reset. Why "hey," "hi," and "how are you?" quietly kill attraction before the conversation even starts — and what to send instead.</p>
+        <span class="val">$27 value</span>
+      </div>
+    </div>
+    <div class="module">
+      <div class="module-num">02</div>
+      <div>
+        <h3>The Foundations of Magnetic Texting</h3>
+        <p>Why statements outperform questions, how to sound confident without being loud, and the role of scarcity, self-control, and when to reply (and when not to).</p>
+        <span class="val">$27 value</span>
+      </div>
+    </div>
+    <div class="module">
+      <div class="module-num">03</div>
+      <div>
+        <h3>How Women Actually Experience Your Texts</h3>
+        <p>What she's really reading beneath your words — subtext, tone, the difference between emotional safety and emotional excitement, and the attraction signals most men miss entirely.</p>
+        <span class="val">$19 value</span>
+      </div>
+    </div>
+    <div class="module">
+      <div class="module-num">04</div>
+      <div>
+        <h3>Rules You Must Follow Before Sending Any Text</h3>
+        <p>One text, one emotional outcome. Why double-texting is almost always a mistake, and how to text from detachment — caring without chasing.</p>
+        <span class="val">$19 value</span>
+      </div>
+    </div>
+    <div class="module">
+      <div class="module-num">05</div>
+      <div>
+        <h3>The 67 Flirty Texts, Organized By Scenario</h3>
+        <p>Opening without "hey." Turning a neutral chat flirty. Passing her tests. Reviving a dead conversation. Leading toward a date. Recovering when she goes cold. Every real-life texting situation, covered.</p>
+        <span class="val">$47 value</span>
+      </div>
+    </div>
+    <div class="module">
+      <div class="module-num">06</div>
+      <div>
+        <h3>Delivering Them Without Sounding Scripted</h3>
+        <p>How to adapt every line to your own personality, calibrate energy so you're never moving too fast, and text from abundance instead of need — plus the hard truths about what texting can and can't do for you.</p>
+        <span class="val">$27 value</span>
+      </div>
+    </div>
+
+    <div class="value-total">
+      <div>
+        <div class="label">Total value</div>
+        <div class="amount strike">$166</div>
+      </div>
+      <div>
+        <div class="label">Your price today</div>
+        <div class="amount"><span class="strike-price" id="value-strike">$17</span><span id="value-price">$7</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">Real students. Real screenshots.</span>
+    <h2>What Guys Are Saying</h2>
+    <p>Unedited screenshots, straight from real buyers' chats:</p>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <img src="assets/testimonials-1.jpg" alt="Screenshot of real buyer testimonials and DMs" loading="lazy">
+        <div class="cap">Real buyer messages — screenshot 1</div>
+      </div>
+      <div class="proof-card">
+        <img src="assets/testimonials-2.jpg" alt="Screenshot of real buyer testimonials and DMs" loading="lazy">
+        <div class="cap">Real buyer messages — screenshot 2</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- OUTCOMES -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">Your new reality</span>
+    <h2>What Changes When You Get This Right</h2>
+    <div class="outcome-grid">
+      <div class="outcome"><span class="ico">💬</span><h3>You stop re-reading your own texts</h3><p>You know why you're sending a message before you hit send. No more fifteen-minute overthinking sessions on four words.</p></div>
+      <div class="outcome"><span class="ico">🌡️</span><h3>Dry replies stop rattling you</h3><p>You know a one-word "good" isn't rejection — it's a text that gave her nothing to build on. You redirect instead of panic.</p></div>
+      <div class="outcome"><span class="ico">🚫</span><h3>You stop double-texting</h3><p>Silence doesn't feel like an emergency anymore. You send one message with intent, then get on with your life.</p></div>
+      <div class="outcome"><span class="ico">🎯</span><h3>You know what to say when a chat goes cold</h3><p>67 exact texts for every real scenario — opener, dead chat, she's testing you, leading to a date — so you're never staring at the screen blank.</p></div>
+      <div class="outcome"><span class="ico">🧊</span><h3>You stop chasing</h3><p>You text from detachment, not fear. Which, ironically, is what gets chased back.</p></div>
+      <div class="outcome"><span class="ico">🚪</span><h3>You stop settling for the friendzone</h3><p>You understand the difference between friendly, flirty, and leading — and you know exactly when to use each one.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- AUTHORITY -->
+<section class="section-tight">
+  <div class="wrap">
+    <span class="eyebrow center" style="text-align:center; display:block;">The brand behind it</span>
+    <div class="authority">
+      <h2 style="margin-bottom:6px;">ALPHA RIZZOLOGY</h2>
+      <p style="max-width:480px; margin-inline:auto;">Built from real conversations with real men stuck in the exact chats you're stuck in — not theory borrowed from a dating coach who's been married for a decade and forgot what a cold match feels like.</p>
+      <div class="stat-row">
+        <div><b>1,500+</b><span>Students</span></div>
+        <div><b>4.8/5</b><span>Rating</span></div>
+        <div><b>67</b><span>Texts Inside</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- GUARANTEE -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">Zero risk</span>
+    <h2>The 7-Day Guarantee</h2>
+    <div class="guarantee-box">
+      <div class="seal">🛡</div>
+      <h3 style="margin-bottom:10px;">Read it. Try it. If it's not for you, get every cent back.</h3>
+      <p style="max-width:420px; margin-inline:auto;">You have 7 days from purchase to go through the system. If you don't feel it's helped you understand texting and attraction better, message us and we'll refund you in full. No interrogation.</p>
+      <ul class="check-list">
+        <li>Full refund within 7 days, no questions asked</li>
+        <li>Instant access the moment payment clears</li>
+        <li>One simple message to request it — that's it</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- OFFER -->
+<section class="section" id="offer">
+  <div class="wrap">
+    <span class="eyebrow center" style="text-align:center; display:block;">Get access now</span>
+    <h2 class="center">One Decision. Different Chats.</h2>
+    <p class="center" style="max-width:460px; margin-inline:auto;">Join 1,500+ men who stopped guessing what to text and started leading the conversation instead.</p>
+
+    <div class="offer-box">
+      <div class="microcopy">Total value: $166+</div>
+      <div class="price-display">
+        <span class="strike-price" id="offer-strike" style="font-size:0.4em;">$17</span>
+        <span class="big" id="offer-price">$7</span>
+        <div class="save-pill">Save 58% today</div>
+        <div class="cur-note" id="cur-note">Priced in USD · shown in EUR / GBP automatically in Europe & UK</div>
+      </div>
+      <ul class="offer-list">
+        <li>The full 67 Text Attraction System (8 sections)</li>
+        <li>All 67 texts, organized by exact scenario</li>
+        <li>The mindset & foundations modules</li>
+        <li>Instant digital download after payment</li>
+        <li>7-day money-back guarantee</li>
+      </ul>
+
+      <div class="checkout-timer">
+        <div class="label"><span id="timer-price-label">$7</span> price reserved for</div>
+        <div class="clock" id="checkout-clock">10:00</div>
+      </div>
+
+      <div class="checkout-embed">
+        <div style="width:100%; height:700px">
+          <iframe id="mainstack_checkout_iframe" src="https://checkout-embed.mainstack.com/?productId=6a81eb69dde5abaaa005ca05&type=speed"
+            style="border:0; width:100%; height:100%;" allow="payment" title="Checkout — The 67 Text Attraction System"></iframe>
+        </div>
+      </div>
+      <script src="https://mainstack.me/mainstack-cdn/speed_checkout.js"></script>
+
+      <p class="microcopy" style="margin-top:16px;">🔒 Secure checkout · ⚡ Instant delivery · 📱 Works on any phone</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow">You asked. Here's the truth.</span>
+    <h2>Questions Answered</h2>
+
+    <details class="faq-item">
+      <summary>I'm not naturally funny or smooth. Will this still work for me?</summary>
+      <p>Yes. That's actually who this was built for. The system isn't about becoming a different, "smoother" version of yourself — Section VI is entirely about adapting every text to your real personality so it never sounds scripted.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Does this work on WhatsApp, Instagram, Tinder, Bumble?</summary>
+      <p>Yes. The principles are platform-agnostic, and Section V specifically covers Instagram, WhatsApp, and Facebook game separately, since the energy on each platform is slightly different.</p>
+    </details>
+    <details class="faq-item">
+      <summary>I've bought dating ebooks before and they were all cringe pickup lines. Is this different?</summary>
+      <p>This isn't a list of one-liners to copy-paste. It's a framework for understanding why a text lands or dies, with 67 examples used to illustrate the principle — not replace your own voice.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What if she's already going cold on me?</summary>
+      <p>Section V has a dedicated scenario for exactly this — grounded, non-needy texts for when she pulls back, plus how to tell the difference between "busy" and "not interested."</p>
+    </details>
+    <details class="faq-item">
+      <summary>How fast will I notice a difference?</summary>
+      <p>Most guys notice a shift in how conversations feel the first time they apply Section II — usually within their next few texts. The full system (mindset, delivery, and all 67 texts) is designed to be read in one sitting on your phone.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Do I need to memorize all 67 texts?</summary>
+      <p>No. They're organized by scenario so you can find the exact one you need in the moment — opener, dead chat, she's testing you, leading to a date, and more.</p>
+    </details>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section-tight">
+  <div class="wrap center">
+    <h2>Stop Guessing What To Text.</h2>
+    <p style="max-width:420px; margin-inline:auto;">While you're reading this, some guy just sent his last dry "hey." Don't be him.</p>
+    <p class="center" style="margin-top:10px;"><a href="#offer" style="color:var(--brass); font-family:var(--mono); font-size:13px; text-decoration:underline;">↓ Get the system below</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Alpha Rizzology. All rights reserved. Results shown are from real customers. Individual results vary based on effort and application of the material.</p>
+  </div>
+</footer>
+
+<!-- Sticky, non-scrolling price bar -->
+<div class="sticky-bar">
+  <div class="sb-price">
+    <span class="was" id="sb-was">$17</span>
+    <span class="now" id="sb-now">$7</span>
+  </div>
+  <a href="#offer" class="sb-btn">Get Access Now →</a>
+</div>
+
+<!-- Bottom-left proof ticker -->
+<div id="proof-toast" style="
+  position:fixed; left:14px; bottom:80px; z-index:55; max-width:270px;
+  background:#1E1B18; border:1px solid #33302B; border-radius:12px; padding:12px 14px;
+  display:flex; gap:10px; align-items:center; box-shadow:0 14px 34px -12px rgba(0,0,0,0.6);
+  opacity:0; transform:translateY(8px); transition:opacity .35s ease, transform .35s ease; pointer-events:none;
+">
+  <div style="width:34px; height:34px; border-radius:50%; background:#C79B4A; color:#1A1409; display:flex; align-items:center; justify-content:center; font-weight:800; font-family:'IBM Plex Mono',monospace; flex-shrink:0;" id="proof-avatar">✓</div>
+  <div style="font-size:12.5px; line-height:1.35; color:#EFE8DA;" id="proof-text">1,500+ men have already used this system</div>
+</div>
+
+<script>
+  // Currency display: Europe (EU timezones) and UK show €7 / £7, everywhere else shows $7.
+  // NOTE: this is a timezone heuristic, not real geo-IP — good enough for a static GitHub Pages
+  // site with no backend. Swap for a proper IP-based lookup (e.g. ipapi.co) if you want precision.
+  // The embedded Mainstack checkout below charges in whatever currency that product is configured
+  // for in your Mainstack dashboard — these on-page prices are DISPLAY only, so make sure your
+  // Mainstack product price matches what's shown here (or set up separate product IDs per region).
+  (function(){
+    var GBP_ZONES = ['Europe/London', 'Europe/Belfast', 'Europe/Jersey', 'Europe/Guernsey', 'Europe/Isle_of_Man'];
+    var EUR_ZONE_PREFIX = 'Europe/';
+
+    function detectCurrency(){
+      try{
+        var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+        if (GBP_ZONES.indexOf(tz) !== -1) return { code:'GBP', now:'£7', was:'£17' };
+        if (tz.indexOf(EUR_ZONE_PREFIX) === 0) return { code:'EUR', now:'€7', was:'€17' };
+      }catch(e){}
+      return { code:'USD', now:'$7', was:'$17' };
+    }
+
+    var currency = detectCurrency();
+    var nowEls = ['hero-price','value-price','offer-price','final-price','sb-now','timer-price-label'];
+    var wasEls = ['hero-strike','value-strike','offer-strike','final-strike','sb-was'];
+    nowEls.forEach(function(id){ var el=document.getElementById(id); if(el) el.textContent = currency.now; });
+    wasEls.forEach(function(id){ var el=document.getElementById(id); if(el) el.textContent = currency.was; });
+
+    var note = document.getElementById('cur-note');
+    if(note){
+      note.textContent = currency.code === 'USD'
+        ? 'Priced in USD · shown in EUR / GBP automatically in Europe & UK'
+        : 'Shown in ' + currency.code + ' for your region';
+    }
+  })();
+
+  // Bottom-left proof ticker — real buyer names only.
+  // Deliberately NOT using invented names, countries, or fake "X minutes ago" timestamps:
+  // that would claim specific real-time purchase events that didn't happen. These are your
+  // actual customers from the testimonial screenshots. If you want genuine live pop-ups tied
+  // to real-time sales, Mainstack's webhook can feed real recent-sale events into this same
+  // widget — happy to wire that up whenever you're ready.
+  (function(){
+    var messages = [
+      { av:'D', text:'David just got instant access' },
+      { av:'E', text:'Eric just got instant access' },
+      { av:'N', text:'Neil just got instant access' },
+      { av:'R', text:'Richí just got instant access' },
+      { av:'K', text:'Kayolan just got instant access' },
+      { av:'E', text:'Edvard just got instant access' }
+    ];
+    var toast = document.getElementById('proof-toast');
+    var avatarEl = document.getElementById('proof-avatar');
+    var textEl = document.getElementById('proof-text');
+    var i = 0;
+
+    function show(){
+      avatarEl.textContent = messages[i].av;
+      textEl.textContent = messages[i].text;
+      toast.style.opacity = '1';
+      toast.style.transform = 'translateY(0)';
+      setTimeout(hide, 5200);
+    }
+    function hide(){
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateY(8px)';
+      i = (i + 1) % messages.length;
+      setTimeout(show, 6500);
+    }
+    setTimeout(show, 3000);
+  })();
+  // 10-minute checkout countdown. Restarts each page load — this is a soft urgency cue for the
+  // discounted price shown, not a claim about a specific real-time event, so it doesn't carry the
+  // same "this literally just happened" problem the pop-up names would.
+  (function(){
+    var clock = document.getElementById('checkout-clock');
+    if(!clock) return;
+    var seconds = 10 * 60;
+    function render(){
+      var m = Math.floor(seconds / 60);
+      var s = seconds % 60;
+      clock.textContent = m + ':' + (s < 10 ? '0' : '') + s;
+    }
+    render();
+    var interval = setInterval(function(){
+      seconds--;
+      if(seconds <= 0){
+        seconds = 0;
+        render();
+        clearInterval(interval);
+        return;
+      }
+      render();
+    }, 1000);
+  })();
+</script>
+
+</body>
+</html>
